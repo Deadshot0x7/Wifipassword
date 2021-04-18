@@ -1,5 +1,6 @@
 cls
 color 0a
+
 @ECHO %RANDOM% %RANDOM% %RANDOM% %RANDOM% %RANDOM% %RANDOM%
 
 @echo off
@@ -8,6 +9,7 @@ Title Window's Wifi PAssword Finder
  NETSH WLAN SHOW PROFILE 
 SET wifiname=Varad
 NETSH WLAN SHOW PROFILE %wifiname% Key=clear
+
 @ECHO %RANDOM% %RANDOM% %RANDOM% %RANDOM% %RANDOM% %RANDOM%
 
 pause>nul
