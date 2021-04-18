@@ -5,4 +5,6 @@ This WIll work in WIndows Machine only
 #Usage
 Right click on the batch folder 
 Run as Adminstrator 
+#Disclaimer 
+This Only work for ****** Windows Machine ******
 
