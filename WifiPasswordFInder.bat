@@ -6,9 +6,11 @@ color 0a
 @echo off
 Title Window's Wifi PAssword Finder 
 @Echo  Created By Deadshot0x7
- NETSH WLAN SHOW PROFILE 
-SET wifiname=Varad
-NETSH WLAN SHOW PROFILE %wifiname% Key=clear
+NETSH WLAN SHOW PROFILE
+pause>nul 
+set /p Var1="Enter NetwOrk SSid"
+
+NETSH WLAN SHOW PROFILE %Var1% Key=clear
 
 @ECHO %RANDOM% %RANDOM% %RANDOM% %RANDOM% %RANDOM% %RANDOM%
 
